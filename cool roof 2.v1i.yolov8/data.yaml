@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['cool', 'generic']
+
+roboflow:
+  workspace: dya-fpx1f
+  project: cool-roof-2
+  version: 1
+  license: Private
+  url: https://app.roboflow.com/dya-fpx1f/cool-roof-2/1
